@@ -1,0 +1,68 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "result.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Area ",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Population",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "GDP per capita",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Population density  ",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Vehicle ownership ",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Total Road Deaths ",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Road deaths per Million Inhabitants ",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Year",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "my-data-package",
+  "title": "EU road safety report",
+  "homepage": "https://eu-road-safety-report",
+  "contributors": [
+    {
+      "title": "Mawusi Kpodo",
+      "role": "author"
+    }
+  ]
+}
